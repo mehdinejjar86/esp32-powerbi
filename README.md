@@ -1,4 +1,4 @@
-# IoT: Data Collection (ESP32/Power BI)
+# IoT: Data Collection (ESP32/HX711/Power BI)
 
 ## Abstract
 
