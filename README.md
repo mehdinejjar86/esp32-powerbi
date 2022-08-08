@@ -38,6 +38,27 @@ Manager URLs” field as shown in the figure below. Then, click the “OK” but
 
 ![Screenshot 2022-08-08 201445](https://user-images.githubusercontent.com/67825314/183496419-742c5287-346d-478c-889c-4b23affea1a1.png)
 
+Open the Boards Manager. Go to **Tools > Board > Boards Manager**
+
+![Screenshot 2022-08-08 201715](https://user-images.githubusercontent.com/67825314/183496747-45cba8ac-c636-4193-a208-976ba7cbae6f.png)
+
+Search for ESP32 and press install button for the **esp32** by **Espressif Systems**:
+
+![Screenshot 2022-08-08 201847](https://user-images.githubusercontent.com/67825314/183497031-6b96eb28-f4b8-49c2-9a09-85e907e6f475.png)
+
+Plug the ESP32 board to your computer. With your Arduino IDE open, follow these steps:
+
+Select your Board in **Tools > Board** menu (in my case it’s the **DOIT ESP32 DEVKIT V1**)
+
+![Screenshot 2022-08-08 202039](https://user-images.githubusercontent.com/67825314/183497315-b560a948-6ae9-4d1e-b816-d12cbc993686.png)
+
+Select the Port (if you don’t see the COM Port in your Arduino IDE, you need to install the CP210x USB to UART Bridge VCP Drivers):
+https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+
+![Screenshot 2022-08-08 202211](https://user-images.githubusercontent.com/67825314/183497593-ec07de69-9ddc-40c3-ab3d-fa2dc799c795.png)
+
+put the “librabries” folder inside **Documents\Arduino**
+
 
 
 
