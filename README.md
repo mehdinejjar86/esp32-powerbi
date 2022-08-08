@@ -18,3 +18,7 @@ The Dashboard delivers a great user experience by displaying every peak happened
 - Wires.
 
 ### Graph:
+
+![Screenshot 2022-08-08 200719](https://user-images.githubusercontent.com/67825314/183495002-e0299d30-7f5c-4c24-9822-4bbcfd5ec1ce.png)
+
+
