@@ -87,6 +87,7 @@ Then configure the following Arduino sketch with ssid, password, pushURL, target
 NB: Each time we want to change or add an area or a machine, we change the data mentioned above except for the pushURL then we upload the code from Arduino Sketch to ESP32.
 
 
+
 Alert = CALCULATE(SELECTEDVALUE(RealTimeData[Weight]) - SELECTEDVALUE(RealTimeData[TargetValue]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
 
 ClusterColor = CALCULATE( SELECTEDVALUE(RealTimeData[Weight]) / SELECTEDVALUE(RealTimeData[TargetValue]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
@@ -95,7 +96,7 @@ ClusterColor = CALCULATE( SELECTEDVALUE(RealTimeData[Weight]) / SELECTEDVALUE(Re
 
 A video tutorial on how to setup streaming dataset:
 
-[![Watch the video]()](https://www.youtube.com/watch?v=HzXIgUNRATs)
+[![Watch the video](https://user-images.githubusercontent.com/67825314/183531923-a1746481-dd48-4390-ac1d-c4a6cd13cd66.jpg)](https://www.youtube.com/watch?v=HzXIgUNRATs)
 
 
 **Set of Functions**: (Can be usefull creating dashboard)
