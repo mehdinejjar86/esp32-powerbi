@@ -10,6 +10,15 @@ The Dashboard delivers a great user experience by displaying every peak happened
 
 ### Application Screenshots
 
+![Picture1](https://user-images.githubusercontent.com/67825314/183530962-f074ad8e-c759-4fa6-b0ca-28e0c82f321c.png)
+
+![Picture2](https://user-images.githubusercontent.com/67825314/183530970-ca17d9ca-bdce-4ecb-8ab2-3a754be910bb.png)
+
+![Picture3](https://user-images.githubusercontent.com/67825314/183530980-2fd3bc8b-7eed-4899-9e4e-c73218aea109.png)
+
+![Picture4](https://user-images.githubusercontent.com/67825314/183530987-c62a1d5f-e104-40a1-9d02-efa57a2d9400.png)
+
+![Picture5](https://user-images.githubusercontent.com/67825314/183530991-c081eef4-6b63-4b61-a1d2-94c4d4926376.png)
 
 
 ## Installation
