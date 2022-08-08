@@ -57,7 +57,9 @@ https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
 
 ![Screenshot 2022-08-08 202211](https://user-images.githubusercontent.com/67825314/183497593-ec07de69-9ddc-40c3-ab3d-fa2dc799c795.png)
 
-put the “librabries” folder inside **Documents\Arduino**
+Extract the “libraries.7z” put the “librabries” folder inside **Documents\Arduino**
+
+
 
 
 
