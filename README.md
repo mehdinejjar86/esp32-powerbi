@@ -31,6 +31,7 @@ The Dashboard delivers a great user experience by displaying every peak happened
 
 In your Arduino IDE, go to **File> Preferences**
 
-![Screenshot 2022-08-08 201049](https://user-images.githubusercontent.com/67825314/183495497-f575dbe8-570d-4d30-9129-70ca49301587.png)
+![Screenshot 2022-08-08 201049](https://user-images.githubusercontent.com/67825314/183495714-cfc50599-94e1-4f0b-9704-68d43b3da511.png)
+
 
 
