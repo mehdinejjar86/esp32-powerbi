@@ -21,4 +21,10 @@ The Dashboard delivers a great user experience by displaying every peak happened
 
 ![Screenshot 2022-08-08 200719](https://user-images.githubusercontent.com/67825314/183495002-e0299d30-7f5c-4c24-9822-4bbcfd5ec1ce.png)
 
+1. Form a loop by linking the same color outer wires (white and black) of the four load cells.
+2. Connect the middle cable (red) of one of the diagonals to the E+ and E- outputs of the HX711 module.
+3. Connect the other diagonal to the A+ and A- inputs of the HX711 module.
+4. Connect the GND of the HX711 module to the ESP32 GND and VCC to the ESP32 3.3V pin.
+6. Connect the DT of the HX711 module to the ESP32 D21 pin and SCK of the HX711 module to the ESP32 D22 pin.
+
 
