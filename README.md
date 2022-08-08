@@ -36,7 +36,8 @@ In your Arduino IDE, go to **File> Preferences**
 Enter **https://dl.espressif.com/dl/package_esp32_index.json** into the “Additional Board 
 Manager URLs” field as shown in the figure below. Then, click the “OK” button:
 
-![Screenshot 2022-08-08 201445](https://user-images.githubusercontent.com/67825314/183496278-6dbf39d0-70ec-4293-a093-3fe2897c4e14.png)
+![Screenshot 2022-08-08 201445](https://user-images.githubusercontent.com/67825314/183496419-742c5287-346d-478c-889c-4b23affea1a1.png)
+
 
 
 
