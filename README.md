@@ -10,15 +10,15 @@ The Dashboard delivers a great user experience by displaying every peak happened
 
 ### Application Screenshots
 
-![Picture1](https://user-images.githubusercontent.com/67825314/183532607-6fa135bc-3509-4c01-b655-0cd83ae15088.png)
+![Picture1](https://user-images.githubusercontent.com/67825314/183532842-ceea0fdd-89f2-4139-90fa-f9e334a26881.png)
 
-![Picture2](https://user-images.githubusercontent.com/67825314/183532616-5780039d-e44c-4f70-99e7-4cfd6a8e69b4.png)
+![Picture2](https://user-images.githubusercontent.com/67825314/183532856-bb8fd9ef-8c1f-4fea-b94e-49295961a51b.png)
 
-![Picture3](https://user-images.githubusercontent.com/67825314/183532619-c3ee186d-2a15-4f7b-9591-c770c5cf36fd.png)
+![Picture3](https://user-images.githubusercontent.com/67825314/183532866-6f8f1165-0be0-4fb1-b9df-bcd8e16170ae.png)
 
-![Picture4](https://user-images.githubusercontent.com/67825314/183532625-58e003ab-e9e9-446b-b809-debaf0039c10.png)
+![Picture4](https://user-images.githubusercontent.com/67825314/183532880-139ae7fc-6445-44aa-a42f-d949eca58a59.png)
 
-![Picture5](https://user-images.githubusercontent.com/67825314/183532632-00d19ed0-f0db-4038-9b3b-1b1e68d6a60d.png)
+![Picture5](https://user-images.githubusercontent.com/67825314/183532892-03020afc-b2ca-4a94-b54a-615deb522e4f.png)
 
 ## Installation
 
