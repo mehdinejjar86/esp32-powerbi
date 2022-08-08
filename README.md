@@ -95,6 +95,9 @@ ClusterColor = CALCULATE( SELECTEDVALUE(RealTimeData[Weight]) / SELECTEDVALUE(Re
 
 A video tutorial on how to setup streaming dataset:
 
+[![Watch the video]()](https://www.youtube.com/watch?v=HzXIgUNRATs)
+
+
 **Set of Functions**: (Can be usefull creating dashboard)
 
 MaxValueRealTime = CALCULATE( SELECTEDVALUE(RealTimeData[MaxValue]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
