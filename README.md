@@ -74,6 +74,29 @@ Then configure the following Arduino sketch with ssid, password, pushURL, target
 NB: Each time we want to change or add an area or a machine, we change the data mentioned above except for the pushURL then we upload the code from Arduino Sketch to ESP32.
 
 
+Alert = CALCULATE(SELECTEDVALUE(RealTimeData[Weight]) - SELECTEDVALUE(RealTimeData[TargetValue]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
+
+ClusterColor = CALCULATE( SELECTEDVALUE(RealTimeData[Weight]) / SELECTEDVALUE(RealTimeData[TargetValue]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
+
+### Creating and Customizing Dashboard in Power Bi
+
+A video tutorial on how to setup streaming dataset:
+
+**Set of Functions**: (Can be usefull creating dashboard)
+
+MaxValueRealTime = CALCULATE( SELECTEDVALUE(RealTimeData[MaxValue]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
+
+MinValueRealTime = CALCULATE( SELECTEDVALUE(RealTimeData[MinValue]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
+
+PeakDate = CALCULATE(MAX(RealTimeData[Date]), TOPN(1, RealTimeData, RealTimeData[DateShift], ASC, RealTimeData[Shift], ASC, RealTimeData[Weight])) & " " 
+
+ShiftPeak = CALCULATE(MAX(RealTimeData[Weight]), TOPN(1, RealTimeData, RealTimeData[DateShift], ASC, RealTimeData[Shift], ASC))
+
+Shiftsum = SUMX(SUMMARIZE(RealTimeData, RealTimeData[DateShift], RealTimeData[Shift], "Peaks", MAX(RealTimeData[Weight])),[ShiftPeak])
+
+TargetValueRealTime = CALCULATE( SELECTEDVALUE(RealTimeData[TargetValue]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
+
+WeightRealTime = CALCULATE( SELECTEDVALUE(RealTimeData[Weight]), FILTER(RealTimeData, RealTimeData[Date] = MAX(RealTimeData[Date])))
 
 
 
