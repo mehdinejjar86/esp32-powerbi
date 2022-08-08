@@ -27,4 +27,10 @@ The Dashboard delivers a great user experience by displaying every peak happened
 4. Connect the GND of the HX711 module to the ESP32 GND and VCC to the ESP32 3.3V pin.
 6. Connect the DT of the HX711 module to the ESP32 D21 pin and SCK of the HX711 module to the ESP32 D22 pin.
 
+### Installing ESP32 Add-on in Arduino IDE (Windows)
+
+In your Arduino IDE, go to **File> Preferences**
+
+![Screenshot 2022-08-08 201049](https://user-images.githubusercontent.com/67825314/183495497-f575dbe8-570d-4d30-9129-70ca49301587.png)
+
 
