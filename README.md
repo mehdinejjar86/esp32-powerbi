@@ -59,6 +59,22 @@ https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
 
 Extract the “libraries.7z” put the “librabries” folder inside **Documents\Arduino**
 
+### Load cell calibration:
+
+Before transferring the data, we need to calibrate the four strain gauges. First, Run calibrationDb.ino to get started.
+Upload the code from Arduino Sketch to ESP32 and open the serial monitor.
+Send “t” to the serial monitor to adjust the tare offset. Put an object whose weight is known the balance (4 strain gauges) and write the weight value in the serial monitor.
+Then the calibration value is written in the serial monitor (write the calibration value down).
+Save the calibration value by typing "y" into the serial monitor.
+
+###  Microcontroller configuration:
+
+Then configure the following Arduino sketch with ssid, password, pushURL, targetvalue, Country, Plant, Area, and Machine and push it to ESP32.
+
+NB: Each time we want to change or add an area or a machine, we change the data mentioned above except for the pushURL then we upload the code from Arduino Sketch to ESP32.
+
+
+
 
 
 
